@@ -121,8 +121,8 @@ export default function HomePage() {
                 <div className="service-card">
                   <div className="service-card-image">
                     <img src={service.image} alt={service.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                    <div className="service-card-icon">{service.icon}</div>
                   </div>
+                  <div className="service-card-icon">{service.icon}</div>
                   <div className="service-card-body">
                     <h3 className="service-card-title">{service.title}</h3>
                     <p className="service-card-desc">{service.desc}</p>

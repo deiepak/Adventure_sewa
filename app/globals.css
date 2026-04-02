@@ -688,7 +688,7 @@ select {
 
 .service-card-icon {
   position: absolute;
-  bottom: -20px;
+  top: 178px; /* 200px height of image - 22px half icon height */
   right: 16px;
   width: 44px;
   height: 44px;
